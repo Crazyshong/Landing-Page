@@ -52,13 +52,6 @@ a{
     gap: 70px;
 }
 
-.informacion{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 #imagenInfo{
     background-color: aliceblue;
     width: 150px;
@@ -71,12 +64,42 @@ a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
+} 
 
-.seccionesinfo{
+.informacion{
     display: flex;
-    flex-direction: row;
+    flex: 1;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+}
+
+.seccionesnifo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.cita{
+    background-color: #BE3144;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.citado{
+    font-family: 'Nothing You Could Do', cursive;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.autor{
+    font-weight: 100000;
 }
