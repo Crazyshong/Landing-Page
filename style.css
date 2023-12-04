@@ -8,10 +8,11 @@ body{
 
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     background-color: #22092C;
     color: aliceblue;
     padding: 18px;
+    gap: 800px;
 }
 
 a{
@@ -137,4 +138,27 @@ button{
     align-items: center;
     background-color: #22092C;
     color: aliceblue;
+}
+
+.contenedor{
+    background-color: #d39990;
+    width: 800px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.tiempo{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 10px;
+    
+}
+
+h3{
+    margin: 0;
+    padding: 0;
 }
