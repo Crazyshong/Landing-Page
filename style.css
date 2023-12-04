@@ -32,12 +32,16 @@ a{
 
 .portada{
     background-color: aliceblue;
-    width: 350px;
+    width: 400px;
     height: 180px;
+    margin: 0;
 }
 
 .cuadrito{
-    width: 180px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    
 }
 
 
@@ -45,17 +49,31 @@ a{
     color: aliceblue;
     background-color: #22092C;
     margin: 0;
-    padding: 0;
+    padding: 50px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 70px;
+    align-items: start;
+    gap: 135px;
+}
+
+h1 {
+    margin: 0;
+}
+
+button{
+    width: 85px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 12px;
+    
 }
 
 #imagenInfo{
     background-color: aliceblue;
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
 
 }
 
@@ -101,5 +119,22 @@ a{
 }
 
 .autor{
-    font-weight: 100000;
+    font-weight: bold;
+}
+
+.ultimaLlamada{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #F05941;
+}
+
+
+.copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #22092C;
+    color: aliceblue;
 }
